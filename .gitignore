@@ -3,6 +3,7 @@
 cmake-build-debug/
 .vscode/
 make/
+build/
 
 CMakeLists.txt.user
 CMakeCache.txt
