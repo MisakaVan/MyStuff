@@ -19,10 +19,6 @@
 int main()
 {
     using namespace std;
-#ifdef HOME
-    cout << "HOME is defined\n";
-#endif
-
     Session::playerUPtr user = make_unique<UserPlayer>();
 //    Session::playerUPtr user = make_unique<EnemyPlayer1>("Sunny Team", "Sunny Team's");
 //    Session::playerUPtr enemy = make_unique<UserPlayer>("TEST", "TEST's");
